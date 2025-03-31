@@ -27,6 +27,6 @@ struct ParkPalApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(for: [ParkingSpot.self, FavoriteSpot.self, UserPreference.self])
     }
 }
