@@ -5,7 +5,7 @@ import SwiftData
 class UserPreference: Identifiable {
     @Attribute(.unique) var id: UUID = UUID()
     var lastSearchLocation: String?
-    var preferredView: String // "map" or "list"
+    var preferredView: String 
     
     init(id: UUID = UUID(), lastSearchLocation: String?, preferredView: String) {
             self.id = id

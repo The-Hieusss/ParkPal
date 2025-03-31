@@ -5,7 +5,6 @@ class ParkingListViewModel: ObservableObject {
     @Published var filteredSpots: [ParkingSpot] = []
 
     init() {
-        // Match mock data with MapViewModel
         filteredSpots = [
             ParkingSpot(
                 id: UUID().uuidString,

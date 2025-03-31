@@ -10,7 +10,6 @@ class MapViewModel: ObservableObject {
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
 
-    // Full list of all mock spots (unfiltered)
     private var allSpots: [ParkingSpot] = [
         ParkingSpot(
             id: UUID().uuidString,

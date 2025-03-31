@@ -35,7 +35,6 @@ struct MapView: View {
                     }
                 }
 
-                // Floating Card List
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(spacing: 16) {
                         ForEach(viewModel.parkingSpots, id: \.id) { spot in
@@ -48,7 +47,7 @@ struct MapView: View {
                     .padding(.horizontal)
                     .padding(.bottom, 30)
                 }
-                .frame(maxHeight: 300) // or whatever height you want
+                .frame(maxHeight: 300) 
             }
         }
     }
