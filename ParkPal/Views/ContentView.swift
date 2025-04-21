@@ -8,10 +8,10 @@ struct ContentView: View {
                     Label("Find Parking", systemImage: "map")
                 }
 
-            ParkingListView(viewModel: ParkingListViewModel())
-                .tabItem {
-                    Label("Spots List", systemImage: "list.bullet")
-                }
+//            ParkingListView(viewModel: ParkingListViewModel())
+//                .tabItem {
+//                    Label("Spots List", systemImage: "list.bullet")
+//                }
 
             FavoritesView()
                 .tabItem {
