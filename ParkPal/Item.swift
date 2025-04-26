@@ -1,9 +1,4 @@
-//
-//  Item.swift
-//  ParkPal
-//
-//  Created by Hieu Than on 3/30/25.
-//
+
 
 import Foundation
 import SwiftData

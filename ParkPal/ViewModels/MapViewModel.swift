@@ -6,7 +6,7 @@ import CoreLocation
 class MapViewModel: ObservableObject {
     @Published var parkingSpots: [ParkingSpot] = []
     @Published var mapRegion = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),
+        center: CLLocationCoordinate2D(latitude: 33.4255, longitude: -111.9400), 
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
 
